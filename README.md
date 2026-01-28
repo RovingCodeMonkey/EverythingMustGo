@@ -12,8 +12,9 @@ Possibly build in a grouping or bulk sale price mechanism.
 
 App Tasks
 - [x] An app that builds into static html - so no server required.
-- [ ] Loads list from a csv file of items to be sold,
-- [ ] Displays list and pictures.
+- [ ] Displays priced items as list with title/price/single picture,
+- [ ] Allows user to view more information via a details link(Redux or Context?)/popup (State?).
+- [ ] Do I try and index it? Short time-window is there any point?
 
 Server tasks
 - [x] Turn bucket into static site folder
