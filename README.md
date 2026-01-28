@@ -4,10 +4,20 @@ Play project to tinker with setting up react,
 
 The Plan.
 
-- [x] An app that builds into static html - so no server required.
-- [x] Push code into s3, turn bucket into static site folder
-- [x] Configure namecheap dns to point to site
-- [x] Set up github actions to automatically deploy to s3
+Fascilitate my potential near future move by allowing me to display items for sale.
 
+Build out a static site that can be hosted in S3, 
+load a list of items containing Price, Description, Images from a csv and display them for sale.
+Possibly build in a grouping or bulk sale price mechanism.
+
+App Tasks
+- [x] An app that builds into static html - so no server required.
 - [ ] Loads list from a csv file of items to be sold,
 - [ ] Displays list and pictures.
+
+Server tasks
+- [x] Turn bucket into static site folder
+- [x] Configure namecheap dns to point to site
+- [x] Set up github actions to automatically deploy to s3 either on update of main or manual action.
+
+
